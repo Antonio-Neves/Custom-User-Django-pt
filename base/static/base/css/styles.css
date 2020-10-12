@@ -1,0 +1,19 @@
+body {
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+.back01 {
+    background: #D9DDDC;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 10px;
+}
