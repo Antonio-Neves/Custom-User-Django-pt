@@ -5,3 +5,6 @@ __pycache__
 
 # DataBase
 db.sqlite3
+
+# settings.py with Secret Key or sensite informacion
+settings.py
