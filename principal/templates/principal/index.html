@@ -11,7 +11,7 @@
         {% if user.is_anonymous %}
             {% include 'base/_notice_login.html' %}
         {% else %}
-            <h2>Bem-vindo! {{ user.first_name}} {{ user.last_name }}</h2>
+            <h2>Bem-vindo(a)! {{ user.first_name}} {{ user.last_name }}</h2>
             <a class="btn btn-primary shadow-lg mr-1" role="button" href="{% url 'logout' %}">Sair</a>
             <a class="btn btn-primary shadow-lg mr-1" role="button" href="{% url 'user-change' user.pk %}">Alterar perfil</a>
             <a class="btn btn-primary shadow-lg mr-1" role="button" href="{% url 'password-change' %}">Alterar senha</a>
